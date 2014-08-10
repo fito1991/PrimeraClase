@@ -1,0 +1,49 @@
+body
+{
+	font-family: Josefin Sans;
+}
+
+
+/*#contenedor
+{
+	max-width: 1024px;
+}*/
+
+h1
+{
+	text-align: center;
+}
+
+fieldset
+{
+	text-align: center;
+	width: 300px;
+	height: 70px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+h4
+{
+	text-align: center;
+}
+
+#input
+{
+	margin: 0 auto;
+	text-align: center;
+}
+
+#submit
+{
+	font-family: Josefin Sans;
+	font-size: 17px;
+	width: 100px;
+}
+
+#restart
+{
+	font-family: Josefin Sans;
+	font-size: 17px;
+	width: 125px;
+}

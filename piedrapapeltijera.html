@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset = "utf-8" />
+	<title>Piedra, Papel o Tijera</title>
+	<link rel="stylesheet" type="text/css" href="css/juego.css"/>
+	<link href='http://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="js/codigo.js"></script>
+</head>
+<body>
+	<div id="contenedor">	
+		<!--div id="contact-form"-->
+			<h1>Juega a piedra, papel, tijera, lagarto, spock</h1>
+			<form  name="frm">
+				<fieldset>
+					<legend>Escoge una opción para jugar </legend>
+					<input id="radio" type="radio" name="ppt" value="piedra" /><label>Piedra</label>
+					<input id="radio1" type="radio" name="ppt" value="papel"  /><label>Papel</label>
+					<input id="radio2" type="radio" name="ppt" value="tijera"  /><label>Tijera</label>
+					<br/>
+					<br/>
+					<input id="radio3" type="radio" name="ppt" value="lagarto"  /><label>Lagarto</label>
+					<input id="radio4" type="radio" name="ppt" value="spock"  /><label>Spock</label>		
+				</fieldset>
+				<br/>
+				<div><h4 id="seleccion"></h4></div>
+				<div><h4 id="respuesta">Buena Suerte :D</h4></div>
+				<div id="input">
+					<input type="button" value="Jugar" id="submit" onclick="jugar()" />
+					<input type="reset" value="Jugar de nuevo"	id="restart" onclick="document.location.reload()"/>
+				</div>
+			</form>
+		<!--/div-->
+	</div>
+</body>
+</html>
