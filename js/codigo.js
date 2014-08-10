@@ -16,25 +16,12 @@ function jugar()
 {
 	var opcionUsuario;
 
-	if(opciones[0].checked === true)
+	for(i = 0; i < opciones.length; i++)
 	{
-		opcionUsuario = 0;
-	}
-	else if(opciones[1].checked === true)
-	{
-		opcionUsuario = 1;
-	}
-	else if(opciones[2].checked === true)
-	{
-		opcionUsuario = 2;
-	}
-	else if(opciones[3].checked === true)
-	{
-		opcionUsuario = 3;
-	}
-	else if(opciones[4].checked === true)
-	{
-		opcionUsuario = 4;
+		if(opciones[i].checked)
+		{
+			opcionUsuario = i;
+		}
 	}
 
 	if(document.frm.ppt[0].checked == false & document.frm.ppt[1].checked == false & document.frm.ppt[2].checked == false & document.frm.ppt[3].checked == false & document.frm.ppt[4].checked == false )
